@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\profile.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#achievements" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-trophy w3-xxlarge"></i>
+    <p>ACHIEVEMENTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#achievements" class="w3-bar-item w3-button" style="width:25% !important">ACHIEVEMENTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Jun Wei.</h1>
+    <p>A student studying in SMJK Chung Hwa, Klang</p>
+    <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\profile.png" alt="Jun Wei" class="w3-image" width="700" height="1000">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Ng Jun Wei</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>
+        Immersed in the dynamic worlds of computer programming, engineering, robotics, and music, I blend logic with creativity to forge innovative paths. 
+        As a passionate person in these field, I craft digital landscapes with elegant algorithms. 
+        In engineering, I thrive on solving complex challenges, pushing boundaries with inventive solutions. 
+        Robotics captivates me with its fusion of mechanics, envisioning a future where humans and machines harmonize seamlessly. 
+        Beyond technology, I find solace in the universal language of music, composing melodies that resonate with emotion. 
+        Driven by relentless curiosity, I embark on a journey of boundless exploration, shaping tomorrow's possibilities with each endeavor.
+    </p>
+    
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Coding</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">Robotics</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+    </div>
+    <p class="w3-wide">Musics</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:45%"></div>
+    </div><br>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="achievements">
+    <h2 class="w3-text-light-grey">My achievements</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <!--mesac-->
+        <a href="C:\Users\Acer\OneDrive\Desktop\portfolio\NG JUN WEI - SMJK CHUNG HWA, KLANG.pdf">
+          <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\mesac2022.png" style="width:100%">
+          </a>
+        <!--mdec-->
+        <a href="C:\Users\Acer\OneDrive\Desktop\portfolio\NG JUN WEI DCS Cert.pdf">
+        <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\mdec.png" style="width:100%">
+        </a>
+        <!--math-->
+        <a href="C:\Users\Acer\OneDrive\Desktop\portfolio\MA995485 NG JUN WEI CJR2023 CERT.pdf">
+        <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\Chen Jingrun's cup.png" style="width:100%">
+        </a>
+        <!--scout-->
+        <a href="C:\Users\Acer\OneDrive\Desktop\portfolio\eCerT.my-070119140371.pdf">
+        <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\Pengakap.png" style="width:100%">
+        </a>
+        <!--ai untuk rakyat-->
+        <a href="C:\Users\Acer\OneDrive\Desktop\portfolio\Ng Jun Wei_AI_AWARE_BADGE.png">
+          <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\Ng Jun Wei_AI_AWARE_BADGE.png" style="width:100%">
+        </a>
+      </div>
+
+      <div class="w3-half">
+        <!--keahlian-->
+        <a href="C:\Users\Acer\OneDrive\Desktop\portfolio\070119140371.pdf">
+          <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\keahlian.png" style="width:100%">
+        </a>
+        <!--abrsm grade1-->
+        <a href="C:\Users\Acer\OneDrive\Desktop\portfolio\Jun WeiNgPianoPerformance Grade 1.pdf">
+          <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\abrsm g1.png" style="width:100%">
+        </a>
+        <!--abrsm grade 3-->
+        <a href="C:\Users\Acer\OneDrive\Desktop\portfolio\MarkForm_Jun WeiNgPianoPerformance Grade 3.pdf">
+          <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\abrsm g3.png" style="width:100%">
+        </a>
+        <!--rac state lvl-->
+        <a href="C:\Users\Acer\OneDrive\Desktop\portfolio\State Level rero_micro Robot (Secondary Category) _ NG JUN WEI.pdf">
+          <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\rac state lvl.png" style="width:100%">
+        </a>
+        <!--rac national lvl-->
+        <a href="C:\Users\Acer\OneDrive\Desktop\portfolio\National Level rero_micro Robot (Secondary Category) _ NG JUN WEI.pdf">
+          <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\rac national lvl.png" style="width:100%">
+        </a>
+        <!--ai untuk rakyat-->
+        <a href="C:\Users\Acer\OneDrive\Desktop\portfolio\Ng Jun Wei_AI_APPRECIATE_BADGE.png">
+          <img src="C:\Users\Acer\OneDrive\Desktop\portfolio\Ng Jun Wei_AI_APPRECIATE_BADGE.png" style="width:100%">
+        </a> 
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Selangor, Malaysia</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +60 11-1316-5257</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: junweing1901@mail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfLm3LyUmGJYb-IcmqVgaIMqU6w9GsW47ij49ddxYKujPLUbw/formResponse" target="_top" id="form">
+
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="entry.643833733"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="entry.1345350207"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="entry.1249781172"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="entry.780702097"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <p>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </p>
+
+    <hr style="width:200px" class="w3-opacity">
+    <p class="w3-large">
+    &#169 <!-- (c)copyright symbol -->
+    2024&nbsp
+    All Right Reserved.   &nbsp
+    <i>Hak Cipta Terpelihara.</i>
+    </p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $('#gform').submit(function (event) {
+               event.preventDefault()
+               var extraData = {}
+               $('#gform').ajaxSubmit({
+                   data: extraData,
+                   dataType: 'jsonp',  // This won't really work. It's just to use a GET instead of a POST to allow cookies from different domain.
+                   error: function () {
+                       // Submit of form should be successful but JSONP callback will fail because Google Forms
+                       // does not support it, so this is handled as a failure.
+                       alert('Form Submitted. Thanks.')
+                       // You can also redirect the user to a custom thank-you page:
+                       // window.location = 'http://www.mydomain.com/thankyoupage.html'
+                   }
+               })
+           })
+   </script>
+</body>
+</html>
